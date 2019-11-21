@@ -7,7 +7,7 @@ int main() {
     int money;
     cin >> money;
 
-    for (money; money != 0; money) {
+    while (money != 0) {
         if (money >= 1000) {
             cout << money / 1000  << "張一千元" << "\n";
             money -= 1000 * (money / 1000);
